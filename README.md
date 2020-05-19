@@ -1,7 +1,7 @@
 istanbul-middleware
 ===================
 
-[![Build Status](https://travis-ci.org/gotwarlost/istanbul-middleware.png?branch=master)](https://travis-ci.org/gotwarlost/istanbul-middleware) [![Dependency Status](https://gemnasium.com/gotwarlost/istanbul-middleware.png)](https://gemnasium.com/gotwarlost/istanbul-middleware)
+[![Build Status](https://travis-ci.org/gotwarlost/istanbul-middleware.svg?branch=master)](https://travis-ci.org/gotwarlost/istanbul-middleware) [![Dependency Status](https://gemnasium.com/gotwarlost/istanbul-middleware.svg)](https://gemnasium.com/gotwarlost/istanbul-middleware)
 
 Connect middleware for getting code coverage numbers in functional tests for nodejs apps using istanbul.
 
@@ -76,6 +76,11 @@ The above snippet adds the following endpoints to your app under `/coverage`
         <td><code>GET&nbsp;/download</code></td>
         <td>Download a zip file with coverage JSON, HTML and lcov reports</td>
     </tr>
+    <tr>
+            <td><code>GET&nbsp;/download?fmt=json</code></td>
+            <td>Download the raw coverage JSON</td>
+        </tr>
+        <tr>
     <tr>
         <td><code>POST&nbsp;/client</code></td>
         <td>
