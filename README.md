@@ -3,6 +3,20 @@ istanbul-middleware
 
 [![Build Status](https://travis-ci.org/gotwarlost/istanbul-middleware.svg?branch=master)](https://travis-ci.org/gotwarlost/istanbul-middleware) [![Dependency Status](https://gemnasium.com/gotwarlost/istanbul-middleware.svg)](https://gemnasium.com/gotwarlost/istanbul-middleware)
 
+为了支持ES6，创建了此私有源。可以直接执行以下命令安装私有源包
+```javascript
+npm install git+https://github.com/OnTheWay111/istanbul-middleware.git
+```
+
+或直接在package.json中的[dependencies]中添加：
+```json
+"dependencies": {
+    "istanbul-middleware": "git+https://github.com/OnTheWay111/istanbul-middleware.git"
+  }
+```
+
+
+
 Connect middleware for getting code coverage numbers in functional tests for nodejs apps using istanbul.
 
 Run the sample app at `test/app` to get a feel for how this works.
