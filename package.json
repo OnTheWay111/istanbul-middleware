@@ -2,7 +2,7 @@
   "author": "Krishnan Anantheswaran <kananthmail-github@yahoo-inc.com>",
   "name": "istanbul-middleware",
   "description": "Connect middleware for Istanbul to handle server-side as well as browser coverage use-cases for node apps",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "git@github.com:gotwarlost/istanbul-middleware.git"
@@ -21,8 +21,8 @@
     "@lpinca"
   ],
   "dependencies": {
-    "istanbul": "^0.4.5",
-    "istanbul-lib-instrument": "^1.10.1",
+    "istanbul": "1.0.0-alpha.2",
+    "istanbul-lib-instrument": "4.0.3",
     "express": "4.x",
     "body-parser": "^1",
     "archiver": "^1.0.0"
